@@ -87,20 +87,6 @@ class syntax_plugin_groupmanager extends DokuWiki_Syntax_Plugin
         }
     }
 
-    function getInfo()
-    {
-        return array(
-            'author' => 'Harald Ronge',
-            'email' => 'harald@turtur.nl',
-            'date' => '2013-05-26',
-            'name' => 'Group Manager Syntax plugin',
-            'desc' => 'Embeddable group manager, based on groupmgr from Alex Forencich and usermanager from Christopher Smith',
-            'url' => 'http://www.dokuwiki.org/plugin:groupmanager/',
-            'original author' => 'Alex Forencich',
-            'original email' => 'alex@alexforencich.com'
-        );
-    }
-
     /**
      * Plugin type
      */
